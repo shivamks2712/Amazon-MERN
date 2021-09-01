@@ -7,15 +7,18 @@ import Cart from './components/Cart'
 function App() {
    return ( 
      <Router>
+
           <div className="body">
+            <Switch>
       <Route exact path="/basket">
         <Nav className="nav-app"/>
         <Cart/>
         </Route>
-        <Route exact path='/'>
+        <Route  path='/'>
                <Nav className="nav-app"/>
                <Prime/>  
         </Route>
+        </Switch>
          </div>
     </Router>
   );
