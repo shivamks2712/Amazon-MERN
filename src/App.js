@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useState,useEffect,useRef} from "react";
+import Nav from "./components/navbar";
+import Prime from'./components/prime-back';
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import Cart from './components/Cart'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   return ( 
+     <Router>
+          <div className="body">
+      <Route exact path="/basket">
+        <Nav className="nav-app"/>
+        <Cart/>
+        </Route>
+        <Route exact path='/'>
+               <Nav className="nav-app"/>
+               <Prime/>  
+        </Route>
+         </div>
+    </Router>
   );
 }
 

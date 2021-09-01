@@ -1,0 +1,76 @@
+.prime-img{
+    background-image: url('https://store-images.s-microsoft.com/image/apps.16285.14618985536919905.552c0017-6644-49a8-8467-8f7b34ce0428.30ad6b05-16d9-4d5e-a242-43107708a16a?mode=scale&q=90&h=1080&w=1920');
+    background-size: cover;
+    background-repeat: no-repeat;
+    mask-image: linear-gradient(to bottom ,rgba(0,0,0,1),rgba(0,0,0,1),rgba(0,0,0,0.7),rgba(0,0,0,0.4),rgba(24, 23, 23, 0.1));
+    width: 100vw;
+}
+.prime-link{
+    height: 60vh;
+}
+.container-mid{
+    background-color:rgba(24, 23, 23, 0.1) ;
+    width: 100vw;
+    margin: 0%;
+    padding: 1% 2.5%;
+}
+.two-item{
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    column-gap: 5%;
+}
+.three-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 3%;
+    justify-items: center;
+}
+.single-item .product{
+    padding-top: 35px !important;
+}
+.single-item .product-image{
+    max-height: 500px;
+}
+.single-item .add-to-basket{
+    height: 45px;
+    font-size: large;
+    font-weight: 500;
+}
+.product{
+    background-color: white;
+  
+}
+@media screen and (max-width: 992px){
+.three-item{
+    column-gap: 2%;
+}
+.single-item .product-image{
+    max-height: 380px;
+}
+}
+@media screen and (max-width: 775px){
+    .three-item{
+   display: flex;
+   flex-direction: column;
+    }
+    .container.three-item  .product-image{
+        max-height: 330px !important;
+    }
+    .single-item .product-image{
+        max-height: 330px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .two-item{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .single-item{
+        padding: 5px!important;
+    }
+     .product-image{
+        max-height: 210px !important;
+    }
+    
+}
