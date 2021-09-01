@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Amazon-MERN/static/css/main.4de67d6c.chunk.css",
+    "main.js": "/Amazon-MERN/static/js/main.26216054.chunk.js",
+    "main.js.map": "/Amazon-MERN/static/js/main.26216054.chunk.js.map",
+    "runtime-main.js": "/Amazon-MERN/static/js/runtime-main.70e14d65.js",
+    "runtime-main.js.map": "/Amazon-MERN/static/js/runtime-main.70e14d65.js.map",
+    "static/css/2.32c1ecfd.chunk.css": "/Amazon-MERN/static/css/2.32c1ecfd.chunk.css",
+    "static/js/2.c742c99f.chunk.js": "/Amazon-MERN/static/js/2.c742c99f.chunk.js",
+    "static/js/2.c742c99f.chunk.js.map": "/Amazon-MERN/static/js/2.c742c99f.chunk.js.map",
+    "index.html": "/Amazon-MERN/index.html",
+    "static/css/2.32c1ecfd.chunk.css.map": "/Amazon-MERN/static/css/2.32c1ecfd.chunk.css.map",
+    "static/css/main.4de67d6c.chunk.css.map": "/Amazon-MERN/static/css/main.4de67d6c.chunk.css.map",
+    "static/js/2.c742c99f.chunk.js.LICENSE.txt": "/Amazon-MERN/static/js/2.c742c99f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.70e14d65.js",
+    "static/css/2.32c1ecfd.chunk.css",
+    "static/js/2.c742c99f.chunk.js",
+    "static/css/main.4de67d6c.chunk.css",
+    "static/js/main.26216054.chunk.js"
+  ]
+}
